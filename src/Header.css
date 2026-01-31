@@ -1,0 +1,69 @@
+.{
+    background color : red;
+}
+div {
+  box-sizing: border-box;
+}
+
+/* Logo section */
+.Logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar wrapper */
+.nav {
+  display: flex;
+  align-items: center;
+  background color : red;
+}
+
+/* Main header layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #222;
+  background color : red;
+}
+
+/* Nav list */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav links */
+.nav a {
+  text-decoration: none;
+  color: #ef1b61;
+  font-weight: 500;
+  font-width:bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav a:hover {
+  color: #61dafb;
+}
+
+/* Active link (NavLink) */
+.nav a.active {
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 4px;
+}
+.logo-img {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
