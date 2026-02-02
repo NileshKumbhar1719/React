@@ -1,0 +1,58 @@
+/* Page container */
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  font-family: Arial, sans-serif;
+}
+
+/* Submit button */
+.btn {
+  padding: 10px 26px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #084298;
+  transform: scale(1.05);
+}
+
+/* Count text */
+.count {
+  margin: 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Increment button */
+.in {
+  padding: 10px 28px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.in:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+.in:active {
+  transform: scale(0.95);
+}

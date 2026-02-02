@@ -12,8 +12,8 @@ import { AuthProvider } from "./auth/AuthContext";
 function App() {
   return (
     <>
-     <AuthProvider>
-     
+      <AuthProvider>
+
         {/* Header must be inside BrowserRouter */}
         <Header />
 
@@ -31,9 +31,9 @@ function App() {
             }
           />
         </Routes>
-        <Footer/>
-      
-    </AuthProvider>
+        <Footer />
+
+      </AuthProvider>
     </>
   );
 }
